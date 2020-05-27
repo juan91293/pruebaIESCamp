@@ -14,8 +14,12 @@ public class Rectangulo {
         lado2 = l2;
     }
     
-    public double obtenerArea(){
+    public double getArea(){
         return lado1 * lado2;
+    }
+    
+    public double getPerimetro(){
+        return (lado1 * 2) + (lado2 * 2);
     }
     
 }
